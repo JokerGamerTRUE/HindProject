@@ -202,6 +202,38 @@ h1, h2{
 .card-blog:hover .card-body h5{
     color: #935fd3;
 }
+.contact-card{
+    width: 70px;
+}
+.icon-contact-inside-card{
+    background: #f8f9fa;
+    color: #464545;
+    border: solid 4px #935fd3;
+    border-radius: 50%;
+    padding: 10px;
+    transition: width 500ms linear, height 500ms linear;
+    transition: all 300ms linear;
+}
+.card-contact-icon:hover span .icon-contact-inside-card{
+    background: #935fd3;
+    color: #f8f9fa;
+}
+.btn-primary{
+    background: #6945c3;
+    border: #6945c3;
+    color: white;
+    font-size: 20px;
+    transition: width 500ms linear, height 500ms linear;
+    transition: all 200ms linear;
+}
+.btn-primary:hover{
+    color: white;
+    box-shadow: 0 0 10px 0.1px #5e3db4;
+    background: #7957d0;
+}
+.btn-primary:focus{
+    background: #7452cb !important;
+}
 @media (max-width: 620px){
     #end_services{
         height: 770px;

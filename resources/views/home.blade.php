@@ -476,46 +476,120 @@
             </div>
         </div>
     </div>
+    {{--        Blog--}}
     <div class="bg-white">
         <div class="max-width-element container-fluid" align="center">
             <br><br>
-            {{--        Services--}}
-            <div id="start_services">
+            <div id="BLOG">
                 <div class="d-inline-block">
                     <h1 class="py-0 text-dark mb-0">BLOG</h1>
                     <h5 class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
                     <hr class="border border-3 border-primary opacity-100 rounded-pill mt-0 w-25 mx-auto">
                 </div>
                 <div class="d-flex justify-content-center" style="flex-wrap: wrap">
-                    <div class="flex-fill-1">
+                    <div class="flex-fill-1 me-3">
                         <div class="card bg-light card-blog mb-5 card-shadow-hover" align="center">
                             <img src="{{ asset('assets/home/posts/1.jpg') }}">
                             <div class="card-body" align="start">
                                 <h5>See more ideas about Travel</h5>
-                                <h6>
+                                <a>
                                     Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-                                </h6>
+                                </a>
                             </div>
-                            <div class="card-footer bg-secondary bg-opacity-25">
+                            <div class="card-footer bg-secondary bg-opacity-10">
                                 <div class="row justify-content-between">
-                                    <div class="col" align="start">
-
+                                    <div class="col-8 my-auto" align="start">
+                                        <div class="d-flex">
+                                            <div class="flex-fill-1">
+                                                <img src="{{ asset('assets/home/photo.jpg') }}" class="rounded-circle" width="40">
+                                            </div>
+                                            <div class="flex-fill-1 my-auto ms-2">
+                                                <a class="text-dark text-decoration-none">Morgan Freeman</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col" align="end">
-                                        
+                                    <div class="col-4 my-auto" align="end">
+                                        <div class="d-flex">
+                                            <div class="flex-fill-1">
+                                                <i class="fa-solid fa-clock fa-1xl icon-inside-card"></i>
+                                            </div>
+                                            <div class="flex-fill-1 my-auto ms-2 my-auto">
+                                                <h6 class="my-auto">10 min</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-fill-1 me-3">
+                        <div class="card bg-light card-blog mb-5 card-shadow-hover" align="center">
+                            <img src="{{ asset('assets/home/posts/2.jpg') }}">
+                            <div class="card-body" align="start">
+                                <h5>See more ideas about Travel</h5>
+                                <a>
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+                                </a>
+                            </div>
+                            <div class="card-footer bg-secondary bg-opacity-10">
+                                <div class="row justify-content-between">
+                                    <div class="col-8 my-auto" align="start">
+                                        <div class="d-flex">
+                                            <div class="flex-fill-1">
+                                                <img src="{{ asset('assets/home/photo.jpg') }}" class="rounded-circle" width="40">
+                                            </div>
+                                            <div class="flex-fill-1 my-auto ms-2">
+                                                <a class="text-dark text-decoration-none">Morgan Freeman</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 my-auto" align="end">
+                                        <div class="d-flex">
+                                            <div class="flex-fill-1">
+                                                <i class="fa-solid fa-clock fa-1xl icon-inside-card"></i>
+                                            </div>
+                                            <div class="flex-fill-1 my-auto ms-2 my-auto">
+                                                <h6 class="my-auto">10 min</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="flex-fill-1">
-                        <div class="card bg-light card-blog mb-5 circle-icon card-shadow-hover" align="center">
-                            <img src="{{ asset('assets/home/posts/1.jpg') }}">
-                        </div>
-                    </div>
-                    <div class="flex-fill-1">
-                        <div class="card bg-light card-blog mb-5 circle-icon card-shadow-hover" align="center">
-                            <img src="{{ asset('assets/home/posts/1.jpg') }}">
+                        <div class="card bg-light card-blog mb-5 card-shadow-hover" align="center">
+                            <img src="{{ asset('assets/home/posts/3.jpg') }}">
+                            <div class="card-body" align="start">
+                                <h5>See more ideas about Travel</h5>
+                                <a>
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+                                </a>
+                            </div>
+                            <div class="card-footer bg-secondary bg-opacity-10">
+                                <div class="row justify-content-between">
+                                    <div class="col-8 my-auto" align="start">
+                                        <div class="d-flex">
+                                            <div class="flex-fill-1">
+                                                <img src="{{ asset('assets/home/mona.jpg') }}" class="rounded-circle" width="40">
+                                            </div>
+                                            <div class="flex-fill-1 my-auto ms-2">
+                                                <a class="text-dark text-decoration-none">Marta Socrate</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 my-auto" align="end">
+                                        <div class="d-flex">
+                                            <div class="flex-fill-1">
+                                                <i class="fa-solid fa-clock fa-1xl icon-inside-card"></i>
+                                            </div>
+                                            <div class="flex-fill-1 my-auto ms-2 my-auto">
+                                                <h6 class="my-auto">10 min</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -523,7 +597,7 @@
         </div>
         <br><br>
     </div>
-    <br><br><br>
+    <br>
     <script src="{{ asset('styles/js/count_from_zero_to_number.js') }}"></script>
     <script src="{{ asset('styles/js/BotTyping.js') }}"></script>
     <script src="{{ asset('styles/js/callback_progress.js') }}"></script>
