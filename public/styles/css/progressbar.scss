@@ -1,0 +1,19 @@
+.circle-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circle-chart circle {
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.circle-chart circle animate {
+    stroke-dasharray: 0 11;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
