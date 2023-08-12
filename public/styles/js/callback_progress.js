@@ -10,10 +10,10 @@ $(window).scroll(function() {
     }
     if (typeof $isset_2 === "undefined") {
         if (window.scrollY >= 1750){
-            animateValueService(450, 0, 3500, 'count-works')
-            animateValueService(15, 0, 3500, 'count-years')
-            animateValueService(550, 0, 3500, 'count-clients')
-            animateValueService(36, 0, 3500, 'count-award')
+            animateValueService(15, 0, 3500, 'count-works')
+            animateValueService(2, 0, 3500, 'count-years')
+            animateValueService(10, 0, 3500, 'count-clients')
+            animateValueService(3, 0, 3500, 'count-award')
             $isset_2 = 1;
         }
     }
