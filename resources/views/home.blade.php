@@ -5,7 +5,7 @@
     <div class="bg-person mt-0" align="center">
         <div class="title-name">
             <h1 class="text-center fw-bolder words_spaces display-1 text-white">
-                I am Hind
+                I am Hind Alenazi
             </h1>
             <div class="fs-1 text-white" align="center">
                 <span id="element" class="fs-1"></span><span id="cursor" class="text-secondary">|</span>
@@ -20,10 +20,11 @@
                 <div class="row row-cols-md-2 row-cols-1">
                     <div class="col">
                         <div class="row">
-                            <div class="col-lg-4 col-md-7 col-sm-6 col-8 my-lg-auto mb-md-3 mb-4">
-                                <img src="{{ asset('assets/home/photo.jpg') }}" class="w-100 px-1 mx-auto">
-                            </div>
-                            <div class="col-lg-8 col-md-12 col-sm-6 my-auto" align="start">
+{{--                            <div class="col-lg-4 col-md-7 col-sm-6 col-8 my-lg-auto mb-md-3 mb-4">--}}
+{{--                                <img src="{{ asset('assets/home/photo.jpg') }}" class="w-100 px-1 mx-auto">--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-8 col-md-12 col-sm-6 my-auto" align="start">--}}
+                            <div class="col-12" align="start">
                                 <h4 class="fw-normal text-para mb-3">
                                     <span class="fw-bolder">Name: </span>
                                     Morgan Freeman
@@ -57,19 +58,6 @@
                                 <div class="progress-bar bg-primary" style="width: 0"></div>
                             </div>
                         </div>
-{{--                        <div id="CSS3" class="mb-3">--}}
-{{--                            <div class="row justify-content-between mb-2">--}}
-{{--                                <div class="col" align="start">--}}
-{{--                                    CSS3--}}
-{{--                                </div>--}}
-{{--                                <div class="col" align="end">--}}
-{{--                                    26%--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="progress rounded-pill" role="progressbar" aria-label="Basic example" aria-valuemin="0" aria-valuemax="100">--}}
-{{--                                <div class="progress-bar bg-primary" style="width: 0"></div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
                         <div id="JAVA" class="mb-3">
                             <div class="row justify-content-between mb-2">
                                 <div class="col" align="start">
@@ -232,7 +220,7 @@
                             <i class="fa-solid fa-check fa-3x text-gray"></i>
                         </span>
                     </div>
-                    <h4 class="mt-2 text-gray mb-0" id="count-works">0</h4>
+                    <h4 class="mt-2 text-gray mb-0" id="count-works">15</h4>
                     <h6 class=" text-gray">WORKS COMPLETED</h6>
                 </div>
                 <div class="col" align="center">
@@ -241,7 +229,7 @@
                             <i class="fa-regular fa-calendar fa-3x text-gray"></i>
                         </span>
                     </div>
-                    <h4 class="mt-2 text-gray mb-0" id="count-years">0</h4>
+                    <h4 class="mt-2 text-gray mb-0" id="count-years">2</h4>
                     <h6 class=" text-gray">YEARS OF EXPERIENCE</h6>
                 </div>
                 <div class="col" align="center">
@@ -250,7 +238,7 @@
                             <i class="fa-solid fa-people-group fa-3x text-gray"></i>
                         </span>
                     </div>
-                    <h4 class="mt-2 text-gray mb-0" id="count-clients">0</h4>
+                    <h4 class="mt-2 text-gray mb-0" id="count-clients">10</h4>
                     <h6 class=" text-gray">TOTAL CLIENTS</h6>
                 </div>
                 <div class="col" align="center">
@@ -259,13 +247,13 @@
                             <i class="fa-solid fa-award fa-3x text-gray"></i>
                         </span>
                     </div>
-                    <h4 class="mt-2 text-gray mb-0" id="count-award">0</h4>
+                    <h4 class="mt-2 text-gray mb-0" id="count-award">3</h4>
                     <h6 class=" text-gray">AWARD WON</h6>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bg-white">
+    <div class="bg-white d-none">
         <br>
         <div class="max-width-element container-fluid" align="center">
             <div id="protofolio">
@@ -487,7 +475,7 @@
         </div>
     </div>
     {{--        Blog--}}
-    <div class="bg-white">
+    <div class="bg-white d-none">
         <div class="max-width-element container-fluid" align="center">
             <br><br>
             <div id="BLOG">

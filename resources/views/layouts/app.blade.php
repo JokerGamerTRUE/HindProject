@@ -32,7 +32,7 @@
 
 </div>
 <div id="app" class="max-width-element">
-    <nav class="navbar navbar-expand-md position-fixed" style="z-index: 1">
+    <nav class="navbar navbar-expand-md position-fixed" style="z-index: 5">
         <div class="container-fluid bg-warning_ mx-auto">
             <a class="navbar-brand mb-auto text-primary" href="/">
                 <h3 class="fw-bolder fs-1">
@@ -46,7 +46,7 @@
             </button>
             <div class="collapse mt-2 bg-danger_ navbar-collapse w-100 justify-content-center mb-auto bg-primary_" id="navbarcollapse" style="height: 100px;margin-left: -10px">
                 <ul id="list-nav-items" class="container-underline-texts position-relative justify-content-center navbar-nav mx-auto mt-3 mb-lg-auto justify-content-center text-center fs-5">
-                    <li class="nav-item mx-auto">
+                    <li class="nav-item mx-auto mb-5">
                         <a class="nav-link hover-underline-animation fw-bolder" href="#">HOME</a>
                         <a class="nav-link hover-underline-animation fw-bolder" href="#about_me">ABOUT</a>
                         <a class="nav-link hover-underline-animation fw-bolder" href="#start_services">SERVICES</a>
@@ -121,20 +121,17 @@
                     <br><br>
                     <span class="small-text">
                             <i class="fa-solid fa-map-marked-alt text-dark opacity-75 fa-1x"></i>
-{{--                             329 WASHINGTON ST BOSTON, MA--}}
-                            -
+                            Saudi Arabia
                         </span>
                     <br>
                     <span class="small-text">
                             <i class="fa-solid fa-phone text-dark opacity-75 fa-1x"></i>
-{{--                             (617) 557-0089--}}
-                            -
+                             (966) 0507942119
                         </span>
                     <br>
                     <span class="small-text">
                             <i class="fa-solid fa-mail-bulk text-dark opacity-75 fa-1x"></i>
-{{--                             contact@example.com--}}
-                            -
+                            hindas7@hotmail.com
                         </span>
                     <br><br><br><br><br><br>
                     <div class="d-flex">

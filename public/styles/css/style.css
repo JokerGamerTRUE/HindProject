@@ -27,7 +27,7 @@ h1, h2{
     background: rgb(87, 82, 82, 0.6);
     width: 100vw;
     height: 85px;
-    z-index: 1;
+    z-index: 3;
     transition: width 500ms linear, height 500ms linear;
     transition: all 200ms linear;
 }
@@ -308,6 +308,10 @@ h1, h2{
     .navbar-expand-md div{
         width: 100vw
     }
+    /*.container-underline-texts{*/
+    /*    margin-bottom: 202px;*/
+    /*    background: red;*/
+    /*}*/
 }
 @media (max-width: 750px){
     #img-tree-fixed{

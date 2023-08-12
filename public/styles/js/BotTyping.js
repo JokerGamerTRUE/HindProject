@@ -17,6 +17,6 @@ function typeText(element, text) {
 }
 
 var element = document.getElementById("element");
-var text = "Web Developer     ";
+var text = "IT senior     ";
 
 typeText(element, text);
