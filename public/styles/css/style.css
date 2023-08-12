@@ -12,6 +12,61 @@ h1, h2{
     max-width: 100%;
     margin: auto auto;
 }
+#list-nav-items{
+    margin: 0;
+}
+#back-navbar:not(.active){
+    background: none;
+    width: 100vw;
+    height: 85px;
+    z-index: 1;
+    transition: width 500ms linear, height 500ms linear;
+    transition: all 200ms linear;
+}
+#back-navbar{
+    background: rgb(87, 82, 82, 0.6);
+    width: 100vw;
+    height: 85px;
+    z-index: 1;
+    transition: width 500ms linear, height 500ms linear;
+    transition: all 200ms linear;
+}
+
+.container-underline-texts{
+    padding-left: 500px;
+}
+.w3rcontainer{
+    border: 1px solid #6945c3;
+    border-radius: 100px;
+}
+.hover-underline-animation {
+    color: white;
+    display: inline-block;
+    position: relative;
+}
+.hover-underline-animation:hover {
+    color: #c2c0c0;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    border-radius: 100px;
+    background-color: #6945c3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 #cursor{
     animation: ease-out 1s FadeShow infinite;
 }
@@ -38,7 +93,8 @@ h1, h2{
     overflow: hidden;
 }
 .bg-person {
-    background-image: url("../../assets/home/person.jpg");
+    background-image: linear-gradient(to right, #343434, #575252);
+    /*background-image: url("../../assets/home/person.jpg");*/
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -235,9 +291,32 @@ h1, h2{
 .btn-primary:focus{
     background: #7452cb !important;
 }
+.navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+@media (max-width: 1120px){
+    .container-underline-texts{
+        padding-left: 400px;
+    }
+}
+@media (max-width: 1000px){
+    .container-underline-texts{
+        padding-left: 10px;
+        margin-bottom: auto;
+    }
+    .navbar-expand-md div{
+        width: 100vw
+    }
+}
 @media (max-width: 750px){
     #img-tree-fixed{
         height: 250vw;
+    }
+    .hover-underline-animation {
+        color: white;
+        display: block;
+        position: relative;
     }
 }
 @media (max-width: 620px){
@@ -255,11 +334,15 @@ h1, h2{
     }
 }
 @media (max-width: 400px){
+    .hover-underline-animation {
+        transform: translate(-100%, 0);
+    }
+    .container-underline-texts{
+        padding-left: 200px;
+        margin-bottom: auto;
+    }
     .card-blog{
         width: 300px;
         max-width: 95%;
-    }
-    .icon-contact-inside-card{
-        padding: 7px;
     }
 }

@@ -1,9 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    {{--    <link href="{{ asset('styles/css/progressbar.scss') }}" rel="stylesheet">--}}
-    {{--    <link href="{{ asset('styles/css/over.css') }}" rel="stylesheet">--}}
-
     {{--    Name Categorie--}}
     <div class="bg-person mt-0" align="center">
         <div class="title-name">
@@ -60,30 +57,30 @@
                                 <div class="progress-bar bg-primary" style="width: 0"></div>
                             </div>
                         </div>
-                        <div id="CSS3" class="mb-3">
+{{--                        <div id="CSS3" class="mb-3">--}}
+{{--                            <div class="row justify-content-between mb-2">--}}
+{{--                                <div class="col" align="start">--}}
+{{--                                    CSS3--}}
+{{--                                </div>--}}
+{{--                                <div class="col" align="end">--}}
+{{--                                    26%--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="progress rounded-pill" role="progressbar" aria-label="Basic example" aria-valuemin="0" aria-valuemax="100">--}}
+{{--                                <div class="progress-bar bg-primary" style="width: 0"></div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+                        <div id="JAVA" class="mb-3">
                             <div class="row justify-content-between mb-2">
                                 <div class="col" align="start">
-                                    CSS3
-                                </div>
-                                <div class="col" align="end">
-                                    26%
-                                </div>
-                            </div>
-                            <div class="progress rounded-pill" role="progressbar" aria-label="Basic example" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-primary" style="width: 0"></div>
-                            </div>
-                        </div>
-                        <div id="PHP" class="mb-3">
-                            <div class="row justify-content-between mb-2">
-                                <div class="col" align="start">
-                                    PHP
+                                    JAVA
                                 </div>
                                 <div class="col" align="end">
                                     80%
                                 </div>
                             </div>
                             <div class="progress rounded-pill" role="progressbar" aria-label="Basic example" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-primary" onscroll="animateValue(80, 0, 1000, 'PHP')" style="width: 0"></div>
+                                <div class="progress-bar bg-primary" style="width: 0"></div>
                             </div>
                         </div>
                         <div id="JAVASCRIPT" class="mb-3">
@@ -107,17 +104,29 @@
                         </div>
                         <br>
                         <div class="text-secondary">
-                        <span class="fs-5">
-                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.
-                        </span>
+                            <span class="fs-5">
+                                I am eager to apply my technical skills and creativity to develop user-friendly web applications that provide meaningful solutions to real-world problems. In addition, to analyzing data to solve complex problems. I am also enthusiastic about learning new technologies to enhance my skills. In addition to my technical skills, I am also a quick learner and a team player. I have worked on several projects that have honed my skills and allowed me to experiment with new technologies. I am also always looking for opportunities to network with professionals and learn from their experiences.                        </span>
+                                <br><br>
+                            </span>
+                        </div>
+                        <div class="d-inline-block">
+                            <h1 class="py-0 text-dark">EDUCATION</h1>
+                            <hr class="border border-3 border-primary opacity-100 rounded-pill mt-0 w-50 mx-auto">
+                        </div>
+                        <div class="text-secondary">
+                            <span class="fs-4 fw-bolder">
+                                QASSIM UNIVERSITY
+                            <br>
+                            </span>
+                            <span class="fs-5">
+                                BACHELOR'S DEGREE IN INFORMATION TECHNOLOGY
+                                <br>
+                                Data science & artificial intelligence track
+                            </span>
                             <br><br>
                             <span class="fs-5">
-                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                        </span>
-                            <br><br>
-                            <span class="fs-5">
-                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                        </span>
+                                2019 – Present
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -126,7 +135,7 @@
             {{--        Services--}}
             <div id="start_services">
                 <div class="d-inline-block">
-                    <h1 class="py-0 text-dark mb-0">SERVICES</h1>
+                    <h1 class="py-0 text-dark mb-0">SOFT SKILLS</h1>
                     <h5 class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
                     <hr class="border border-3 border-primary opacity-100 rounded-pill mt-0 w-25 mx-auto">
                 </div>
@@ -151,7 +160,7 @@
                                 <i class="fa-solid fa-code fa-3x icon-inside-card"></i>
                             </span>
                             </div>
-                            <h4 class="mt-3 text-dark">WEB DEVELOPMENT</h4>
+                            <h4 class="mt-3 text-dark">Flexibility</h4>
                             <span class="mt-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
                         </span>
@@ -164,7 +173,7 @@
                                 <i class="fa-solid fa-camera-retro fa-3x icon-inside-card"></i>
                             </span>
                             </div>
-                            <h4 class="mt-3 text-dark">PHOTOGRAPHY</h4>
+                            <h4 class="mt-3 text-dark">Time-Management</h4>
                             <span class="mt-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
                         </span>
@@ -177,7 +186,7 @@
                                 <i class="fa-solid fa-mobile-screen fa-3x icon-inside-card"></i>
                             </span>
                             </div>
-                            <h4 class="mt-3 text-dark">RESPONSIVE DESIGN</h4>
+                            <h4 class="mt-3 text-dark">Responsibility</h4>
                             <span class="mt-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
                         </span>
@@ -203,7 +212,7 @@
                                 <i class="fa-solid fa-ranking-star fa-3x icon-inside-card"></i>
                             </span>
                             </div>
-                            <h4 class="mt-3 text-dark">MARKETING SERVICES</h4>
+                            <h4 class="mt-3 text-dark">Quick to learn</h4>
                             <span class="mt-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
                         </span>
@@ -599,6 +608,7 @@
         <br><br>
     </div>
     <br>
+    <script src="{{ asset('styles/js/ScrollSpy.js') }}"></script>
     <script src="{{ asset('styles/js/count_from_zero_to_number.js') }}"></script>
     <script src="{{ asset('styles/js/BotTyping.js') }}"></script>
     <script src="{{ asset('styles/js/callback_progress.js') }}"></script>

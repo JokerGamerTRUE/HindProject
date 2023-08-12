@@ -2,8 +2,8 @@ $(window).scroll(function() {
     if (typeof $isset === "undefined") {
         if (window.scrollY >= 350){
             animateValue(76, 0, 1000, 'HTML')
-            animateValue(26, 0, 1000, 'CSS3')
-            animateValue(80, 0, 1000, 'PHP')
+            // animateValue(26, 0, 1000, 'CSS3')
+            animateValue(80, 0, 1000, 'JAVA')
             animateValue(45, 0, 1000, 'JAVASCRIPT')
             $isset = 1;
         }

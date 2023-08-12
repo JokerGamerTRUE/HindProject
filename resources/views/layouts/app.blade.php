@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('framework/fontawesome/css/all.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('styles/css/ScrollSpy.css') }}" rel="stylesheet">
     <link href="{{ asset('styles/framework/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -27,27 +28,30 @@
     <link href="{{ asset('styles/css/inputs.css') }}" rel="stylesheet">
 </head>
 <body data-bs-theme="light" class="bg-black">
+<div id="back-navbar" class="position-fixed top-0">
+
+</div>
 <div id="app" class="max-width-element">
     <nav class="navbar navbar-expand-md position-fixed" style="z-index: 1">
-        <div class="container-fluid">
+        <div class="container-fluid bg-warning_ mx-auto">
             <a class="navbar-brand mb-auto text-primary" href="/">
                 <h3 class="fw-bolder fs-1">
                     {{ config('app.name', 'Hind') }}
                 </h3>
             </a>
-            <button class="navbar-toggler position-fixed end-0 top-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+            <button onclick="toggler_icon()" class="navbar-toggler position-fixed end-0 top-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="mt-3">
                     <i class="fa-solid fa-bars text-white pt-3"></i>
                 </span>
             </button>
-            <div class="collapse navbar-collapse w-100 justify-content-center mb-auto bg-primary_" id="navbarcollapse" style="height: 400px">
-                <ul id="list-nav-items" class="position-relative justify-content-center navbar-nav mx-auto mt-3 mb-lg-auto justify-content-center text-center fs-5">
+            <div class="collapse mt-2 bg-danger_ navbar-collapse w-100 justify-content-center mb-auto bg-primary_" id="navbarcollapse" style="height: 100px;margin-left: -10px">
+                <ul id="list-nav-items" class="container-underline-texts position-relative justify-content-center navbar-nav mx-auto mt-3 mb-lg-auto justify-content-center text-center fs-5">
                     <li class="nav-item mx-auto">
-                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#">HOME</a>
-                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#about_me">ABOUT</a>
-                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#start_services">SERVICES</a>
-                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#BLOG">BLOG</a>
-                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#contact">CONTACT</a>
+                        <a class="nav-link hover-underline-animation fw-bolder" href="#">HOME</a>
+                        <a class="nav-link hover-underline-animation fw-bolder" href="#about_me">ABOUT</a>
+                        <a class="nav-link hover-underline-animation fw-bolder" href="#start_services">SERVICES</a>
+                        <a class="nav-link hover-underline-animation fw-bolder" href="#BLOG">BLOG</a>
+                        <a class="nav-link hover-underline-animation fw-bolder" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -107,50 +111,44 @@
                 </div>
                 <div class="col">
                     <div class="d-inline-block">
-                        <h3 class="py-0 text-dark mb-0">Get in Touch</h3>
+                        <h3 class="py-0 text-dark mb-0">INTERESTS</h3>
                         <hr class="border border-3 border-primary opacity-100 rounded-pill mt-2 w-50">
                     </div>
                     <br>
                     <h6>
-                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                        In addition to being an IT student, I have a passion for outdoor activities. In the winter I love to travel, I am a keen skier and an aspiring ice climber. When the weather is spring here in Qassim, I love to engage in cycling. These outdoor pursuits not only keep me physically active but also allow me to embrace the beauty of nature and challenge myself in different ways.
                     </h6>
                     <br><br>
                     <span class="small-text">
                             <i class="fa-solid fa-map-marked-alt text-dark opacity-75 fa-1x"></i>
-                             329 WASHINGTON ST BOSTON, MA
+{{--                             329 WASHINGTON ST BOSTON, MA--}}
+                            -
                         </span>
                     <br>
                     <span class="small-text">
                             <i class="fa-solid fa-phone text-dark opacity-75 fa-1x"></i>
-                             (617) 557-0089
+{{--                             (617) 557-0089--}}
+                            -
                         </span>
                     <br>
                     <span class="small-text">
                             <i class="fa-solid fa-mail-bulk text-dark opacity-75 fa-1x"></i>
-                             contact@example.com
+{{--                             contact@example.com--}}
+                            -
                         </span>
                     <br><br><br><br><br><br>
                     <div class="d-flex">
                         <div class="flex-fill-1 contact-card">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/hindas" target="_blank">
                                 <div class="position-relative rounded-circle mx-auto card-contact-icon">
                                     <span class="position-absolute top-50 start-50 translate-middle">
-                                        <i class="fa-brands fa-facebook fa-2x icon-contact-inside-card"></i>
+                                        <i class="fa-brands fa-linkedin fa-2x icon-contact-inside-card"></i>
                                     </span>
                                 </div>
                             </a>
                         </div>
                         <div class="flex-fill-1 contact-card">
-                            <a href="#">
-                                <div class="position-relative rounded-circle mx-auto card-contact-icon">
-                                    <span class="position-absolute top-50 start-50 translate-middle">
-                                        <i class="fa-brands fa-instagram fa-2x icon-contact-inside-card"></i>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="flex-fill-1 contact-card">
-                            <a href="#">
+                            <a href="https://twitter.com/HindAlbutti" target="_blank">
                                 <div class="position-relative rounded-circle mx-auto card-contact-icon">
                                     <span class="position-absolute top-50 start-50 translate-middle">
                                         <i class="fa-brands fa-twitter fa-2x icon-contact-inside-card"></i>
@@ -159,10 +157,10 @@
                             </a>
                         </div>
                         <div class="flex-fill-1 contact-card">
-                            <a href="#">
+                            <a href="https://github.com/HindA7" target="_blank">
                                 <div class="position-relative rounded-circle mx-auto card-contact-icon">
                                     <span class="position-absolute top-50 start-50 translate-middle">
-                                        <i class="fa-brands fa-pinterest fa-2x icon-contact-inside-card"></i>
+                                        <i class="fa-brands fa-github fa-2x icon-contact-inside-card"></i>
                                     </span>
                                 </div>
                             </a>
@@ -182,7 +180,16 @@
         Designed by <a href="#" class="text-decoration-none text-light fw-bolder">BootstrapMade</a>
     </div>
 </div>
-
+<script>
+    $(window).scroll(function() {
+        if (window.scrollY >= 450){
+            $('#back-navbar').addClass('active')
+        }else{
+            $('#back-navbar').removeClass('active')
+        }
+    });
+</script>
+<script src="{{ asset('styles/js/TogglerIcon.js') }}"></script>
 <script src="{{ asset('styles/js/tooltips.js') }}"></script>
 </body>
 </html>
