@@ -177,7 +177,6 @@ h1, h2{
 }
 #quates{
     height: 600px;
-    /*background-image: url("../../assets/home/overlay-bg.jpg");*/
 }
 #quates:after{
     content: "";
@@ -189,10 +188,12 @@ h1, h2{
 }
 #img-tree-fixed{
     z-index: -1;
-    width: 100vw;
+    /*width: 100vw;*/
+    height: 100vw;
 }
 .card-blog{
     width: 350px;
+    max-width: 90%;
 }
 .card-blog .card-body h5{
     color: #2d2d2d;
@@ -234,11 +235,31 @@ h1, h2{
 .btn-primary:focus{
     background: #7452cb !important;
 }
+@media (max-width: 750px){
+    #img-tree-fixed{
+        height: 250vw;
+    }
+}
 @media (max-width: 620px){
     #end_services{
         height: 770px;
     }
     #end_services:after{
         height: 770px;
+    }
+    .card-blog .card-footer .row .col-8 .d-flex .flex-fill-1 .text-dark{
+        font-size: 13px;
+    }
+    .small-text{
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px){
+    .card-blog{
+        width: 300px;
+        max-width: 95%;
+    }
+    .icon-contact-inside-card{
+        padding: 7px;
     }
 }

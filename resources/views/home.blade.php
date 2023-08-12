@@ -23,10 +23,10 @@
                 <div class="row row-cols-md-2 row-cols-1">
                     <div class="col">
                         <div class="row">
-                            <div class="col-4 my-auto">
+                            <div class="col-lg-4 col-md-7 col-sm-6 col-8 my-lg-auto mb-md-3 mb-4">
                                 <img src="{{ asset('assets/home/photo.jpg') }}" class="w-100 px-1 mx-auto">
                             </div>
-                            <div class="col-8 my-auto" align="start">
+                            <div class="col-lg-8 col-md-12 col-sm-6 my-auto" align="start">
                                 <h4 class="fw-normal text-para mb-3">
                                     <span class="fw-bolder">Name: </span>
                                     Morgan Freeman
@@ -284,7 +284,7 @@
                                         </p>
                                     </div>
                                     <div class="flex-fill my-auto" align="center">
-                                        <div class="position-relative plus-circle">
+                                        <div class="position-relative plus-circle ms-auto">
                                         <span class="position-absolute top-50 start-50 translate-middle">
                                             <i class="fa-solid fa-plus fa-2x"></i>
                                         </span>
@@ -310,7 +310,7 @@
                                         </p>
                                     </div>
                                     <div class="flex-fill my-auto" align="center">
-                                        <div class="position-relative plus-circle">
+                                        <div class="position-relative plus-circle ms-auto">
                                         <span class="position-absolute top-50 start-50 translate-middle">
                                             <i class="fa-solid fa-plus fa-2x"></i>
                                         </span>
@@ -336,7 +336,7 @@
                                         </p>
                                     </div>
                                     <div class="flex-fill my-auto" align="center">
-                                        <div class="position-relative plus-circle">
+                                        <div class="position-relative plus-circle ms-auto">
                                         <span class="position-absolute top-50 start-50 translate-middle">
                                             <i class="fa-solid fa-plus fa-2x"></i>
                                         </span>
@@ -362,7 +362,7 @@
                                         </p>
                                     </div>
                                     <div class="flex-fill my-auto" align="center">
-                                        <div class="position-relative plus-circle">
+                                        <div class="position-relative plus-circle ms-auto">
                                         <span class="position-absolute top-50 start-50 translate-middle">
                                             <i class="fa-solid fa-plus fa-2x"></i>
                                         </span>
@@ -388,7 +388,7 @@
                                         </p>
                                     </div>
                                     <div class="flex-fill my-auto" align="center">
-                                        <div class="position-relative plus-circle">
+                                        <div class="position-relative plus-circle ms-auto">
                                         <span class="position-absolute top-50 start-50 translate-middle">
                                             <i class="fa-solid fa-plus fa-2x"></i>
                                         </span>
@@ -414,7 +414,7 @@
                                         </p>
                                     </div>
                                     <div class="flex-fill my-auto" align="center">
-                                        <div class="position-relative plus-circle">
+                                        <div class="position-relative plus-circle ms-auto">
                                         <span class="position-absolute top-50 start-50 translate-middle">
                                             <i class="fa-solid fa-plus fa-2x"></i>
                                         </span>
@@ -428,6 +428,7 @@
             </div>
         </div>
     </div>
+
     <div class="position-relative" id="quates">
         <div class="max-width-element position-absolute top-50 start-50 translate-middle w-100" style="z-index: 1">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" align="center">
@@ -465,11 +466,11 @@
                     <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active bg-btn-indicators"></button>
                     <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class="bg-btn-indicators"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev w-75 justify-content-start px-1" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon rounded-circle p-5" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next w-75 justify-content-end px-1" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon rounded-circle p-5" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -487,7 +488,7 @@
                     <hr class="border border-3 border-primary opacity-100 rounded-pill mt-0 w-25 mx-auto">
                 </div>
                 <div class="d-flex justify-content-center" style="flex-wrap: wrap">
-                    <div class="flex-fill-1 me-3">
+                    <div class="flex-fill-1 me-md-3">
                         <div class="card bg-light card-blog mb-5 card-shadow-hover" align="center">
                             <img src="{{ asset('assets/home/posts/1.jpg') }}">
                             <div class="card-body" align="start">
@@ -503,7 +504,7 @@
                                             <div class="flex-fill-1">
                                                 <img src="{{ asset('assets/home/photo.jpg') }}" class="rounded-circle" width="40">
                                             </div>
-                                            <div class="flex-fill-1 my-auto ms-2">
+                                            <div class="flex-fill-1 my-auto ms-md-2 ms-1">
                                                 <a class="text-dark text-decoration-none">Morgan Freeman</a>
                                             </div>
                                         </div>
@@ -513,7 +514,7 @@
                                             <div class="flex-fill-1">
                                                 <i class="fa-solid fa-clock fa-1xl icon-inside-card"></i>
                                             </div>
-                                            <div class="flex-fill-1 my-auto ms-2 my-auto">
+                                            <div class="flex-fill-1 my-auto ms-md-2 ms-1 my-auto">
                                                 <h6 class="my-auto">10 min</h6>
                                             </div>
                                         </div>
@@ -522,7 +523,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-fill-1 me-3">
+                    <div class="flex-fill-1 me-md-3">
                         <div class="card bg-light card-blog mb-5 card-shadow-hover" align="center">
                             <img src="{{ asset('assets/home/posts/2.jpg') }}">
                             <div class="card-body" align="start">
@@ -538,7 +539,7 @@
                                             <div class="flex-fill-1">
                                                 <img src="{{ asset('assets/home/photo.jpg') }}" class="rounded-circle" width="40">
                                             </div>
-                                            <div class="flex-fill-1 my-auto ms-2">
+                                            <div class="flex-fill-1 my-auto ms-md-2 ms-1">
                                                 <a class="text-dark text-decoration-none">Morgan Freeman</a>
                                             </div>
                                         </div>
@@ -548,7 +549,7 @@
                                             <div class="flex-fill-1">
                                                 <i class="fa-solid fa-clock fa-1xl icon-inside-card"></i>
                                             </div>
-                                            <div class="flex-fill-1 my-auto ms-2 my-auto">
+                                            <div class="flex-fill-1 my-auto ms-md-2 ms-1 my-auto">
                                                 <h6 class="my-auto">10 min</h6>
                                             </div>
                                         </div>
@@ -573,7 +574,7 @@
                                             <div class="flex-fill-1">
                                                 <img src="{{ asset('assets/home/mona.jpg') }}" class="rounded-circle" width="40">
                                             </div>
-                                            <div class="flex-fill-1 my-auto ms-2">
+                                            <div class="flex-fill-1 my-auto ms-md-2 ms-1">
                                                 <a class="text-dark text-decoration-none">Marta Socrate</a>
                                             </div>
                                         </div>
@@ -583,7 +584,7 @@
                                             <div class="flex-fill-1">
                                                 <i class="fa-solid fa-clock fa-1xl icon-inside-card"></i>
                                             </div>
-                                            <div class="flex-fill-1 my-auto ms-2 my-auto">
+                                            <div class="flex-fill-1 my-auto ms-md-2 ms-1 my-auto">
                                                 <h6 class="my-auto">10 min</h6>
                                             </div>
                                         </div>

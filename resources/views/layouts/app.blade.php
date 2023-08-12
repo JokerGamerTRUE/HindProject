@@ -26,57 +26,29 @@
     <link href="{{ asset('styles/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('styles/css/inputs.css') }}" rel="stylesheet">
 </head>
-<body data-bs-theme="light" class="bg-danger">
+<body data-bs-theme="light" class="bg-black">
 <div id="app" class="max-width-element">
-    <nav class="navbar navbar-expand-md position-fixed">
+    <nav class="navbar navbar-expand-md position-fixed" style="z-index: 1">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url('/') }}">
-                {{ config('app.name', 'Laravel') }}
+            <a class="navbar-brand mb-auto text-primary" href="/">
+                <h3 class="fw-bolder fs-1">
+                    {{ config('app.name', 'Hind') }}
+                </h3>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler position-fixed end-0 top-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="mt-3">
+                    <i class="fa-solid fa-bars text-white pt-3"></i>
+                </span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Left Side Of Navbar -->
-                <ul class="navbar-nav me-auto">
-
-                </ul>
-
-                <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ms-auto">
-                    <!-- Authentication Links -->
-                    @guest
-                        @if (Route::has('login'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                        @endif
-
-                        @if (Route::has('register'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                            </li>
-                        @endif
-                    @else
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::user()->name }}
-                            </a>
-
-                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                   onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
-                            </div>
-                        </li>
-                    @endguest
+            <div class="collapse navbar-collapse w-100 justify-content-center mb-auto bg-primary_" id="navbarcollapse" style="height: 400px">
+                <ul id="list-nav-items" class="position-relative justify-content-center navbar-nav mx-auto mt-3 mb-lg-auto justify-content-center text-center fs-5">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#">HOME</a>
+                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#about_me">ABOUT</a>
+                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#start_services">SERVICES</a>
+                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#BLOG">BLOG</a>
+                        <a class="nav-link hover-underline-animation text-primary fw-bolder" href="#contact">CONTACT</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -92,8 +64,8 @@
 <div class="position-relative" id="contact">
     <div class="max-width-element" style="z-index: 1">
         <br><br>
-        <div class="card shadow-lg rounded-5 bg-light p-5 py-3">
-            <div class="row">
+        <div class="card shadow-lg rounded-5 bg-light p-md-5 py-md-3 p-3 px-2 mx-2 mx-md-4">
+            <div class="row gy-3">
                 <div class="col">
                     <div class="d-inline-block">
                         <h3 class="py-0 text-dark mb-0">Send Message Us</h3>
@@ -125,7 +97,7 @@
                             <div class="col">
                                 <div class="form-floating">
                                     <textarea type="text" maxlength="2500" name="message" class="form-control rounded-4 px-4" placeholder="..." id="message" data-bs-toggle="tooltip" data-bs-title="message" style="height: 150px"></textarea>
-                                    <label for="message" class="px-5">Message</label>
+                                    <label for="message" class="px-3">Message...</label>
                                 </div>
                             </div>
                         </div>
@@ -143,17 +115,17 @@
                         Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                     </h6>
                     <br><br>
-                    <span>
+                    <span class="small-text">
                             <i class="fa-solid fa-map-marked-alt text-dark opacity-75 fa-1x"></i>
-                             329 WASHINGTON ST BOSTON, MA 02108
+                             329 WASHINGTON ST BOSTON, MA
                         </span>
                     <br>
-                    <span>
+                    <span class="small-text">
                             <i class="fa-solid fa-phone text-dark opacity-75 fa-1x"></i>
                              (617) 557-0089
                         </span>
                     <br>
-                    <span>
+                    <span class="small-text">
                             <i class="fa-solid fa-mail-bulk text-dark opacity-75 fa-1x"></i>
                              contact@example.com
                         </span>
@@ -196,6 +168,7 @@
                             </a>
                         </div>
                     </div>
+                    <br>
                 </div>
             </div>
         </div>
