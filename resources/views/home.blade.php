@@ -596,7 +596,7 @@
         <br><br>
     </div>
     <br>
-    <script src="{{ asset('styles/js/ScrollSpy.js') }}"></script>
+{{--    <script src="{{ asset('styles/js/ScrollSpy.js') }}"></script>--}}
     <script src="{{ asset('styles/js/count_from_zero_to_number.js') }}"></script>
     <script src="{{ asset('styles/js/BotTyping.js') }}"></script>
     <script src="{{ asset('styles/js/callback_progress.js') }}"></script>
