@@ -49,7 +49,7 @@
                     <li class="nav-item mx-auto mb-5">
                         <a class="nav-link hover-underline-animation fw-bolder" href="#">HOME</a>
                         <a class="nav-link hover-underline-animation fw-bolder" href="#about_me">ABOUT</a>
-                        <a class="nav-link hover-underline-animation fw-bolder" href="#start_services">SERVICES</a>
+                        <a class="nav-link hover-underline-animation fw-bolder" href="#start_services">SKILLS</a>
 <!--                         <a class="nav-link hover-underline-animation fw-bolder" href="#BLOG">BLOG</a> -->
                         <a class="nav-link hover-underline-animation fw-bolder" href="#contact">CONTACT</a>
                     </li>
