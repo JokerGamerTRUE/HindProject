@@ -426,7 +426,7 @@
         </div>
     </div>
 
-    <div class="position-relative" id="quates">
+    <div class="position-relative d-none" id="quates">
         <div class="max-width-element position-absolute top-50 start-50 translate-middle w-100" style="z-index: 1">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" align="center">
                 <div class="carousel-inner">
