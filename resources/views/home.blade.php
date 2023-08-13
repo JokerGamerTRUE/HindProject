@@ -27,19 +27,19 @@
                             <div class="col-12" align="start">
                                 <h4 class="fw-normal text-para mb-3">
                                     <span class="fw-bolder">Name: </span>
-                                    Morgan Freeman
+                                    Hind Alenazi
                                 </h4>
                                 <h4 class="fw-normal text-para mb-3">
                                     <span class="fw-bolder">Profile: </span>
-                                    full stack developer
+                                    IT senior
                                 </h4>
                                 <h4 class="fw-normal text-para mb-3">
                                     <span class="fw-bolder">Email: </span>
-                                    contact@example.com
+                                    hindas7@hotmail.com
                                 </h4>
                                 <h4 class="fw-normal text-para mb-3">
                                     <span class="fw-bolder">Phone: </span>
-                                    (617) 557-0089
+                                    (966) 0507942119
                                 </h4>
                             </div>
                         </div>
